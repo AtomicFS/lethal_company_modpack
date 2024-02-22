@@ -1,0 +1,2 @@
+*.dll filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/yippeesound filter=lfs diff=lfs merge=lfs -text

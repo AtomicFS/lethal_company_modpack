@@ -1,0 +1,10 @@
+/BepInEx/cache
+/Lethal Company_Data
+/MonoBleedingEdge
+/.mods/*
+!/.mods/update_mods.sh
+/*.dll
+/*.exe
+/*.png
+*.log
+*.~1~
