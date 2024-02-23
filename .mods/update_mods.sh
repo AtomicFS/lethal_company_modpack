@@ -12,33 +12,6 @@ set -Eeuo pipefail
 #   ~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Lethal Company/
 GAMEDIR="$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Lethal Company"
 
-# The resulting directory structure should look something like this:
-#
-# ~/.var/.../Lethal Company/
-# ├── BepInEx
-# │   ├── BepInEx -> ../.mods/BepInEx-BepInExPack/BepInExPack/BepInEx/
-# │   ├── Bundles
-# │   ├── cache
-# │   ├── config
-# │   ├── core -> ../.mods/BepInEx-BepInExPack/BepInExPack/BepInEx/core
-# │   ├── doorstop_config.ini -> ../.mods/BepInEx-BepInExPack/BepInExPack/doorstop_config.ini
-# │   ├── winhttp.dll -> ../.mods/BepInEx-BepInExPack/BepInExPack/winhttp.dll
-# │   └── ...
-# ├── Dissonance_Diagnostics
-# ├── icon.png
-# ├── Lethal Company_Data
-# ├── Lethal Company.exe
-# ├── .mods
-# │   ├── 2018-LC_API-3.4.5
-# │   ├── 2018-LC_API-3.4.5.zip
-# │   ├── BepInEx-BepInExPack-5.4.2100
-# │   ├── BepInEx-BepInExPack-5.4.2100.zip
-# │   ├── ...
-# │   ├── Suskitech-AlwaysHearActiveWalkies-1.4.4
-# │   └── Suskitech-AlwaysHearActiveWalkies-1.4.4.zip
-# ├── MonoBleedingEdge
-# └── ...
-
 # List of mods
 declare -a MODS=(
 	"https://thunderstore.io/c/lethal-company/p/2018/LC_API/"
