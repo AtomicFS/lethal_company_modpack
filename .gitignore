@@ -1,8 +1,11 @@
 /BepInEx/cache
 /Lethal Company_Data
 /MonoBleedingEdge
-/.mods/*
-!/.mods/update_mods.sh
+/.mods/.mypy_cache
+/.mods/new-mod-dir/
+/.mods/old/
+/.mods/thunderstore_cache.sqlite
+/.mods/up-to-date-mods/
 /*.dll
 /*.exe
 /*.png

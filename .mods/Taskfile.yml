@@ -1,0 +1,23 @@
+---
+version: '3'
+vars:
+  PROJECT: 'update_mods.py'
+
+tasks:
+  lint-pylint:
+    desc: Run pylint
+    ignore_error: true
+    cmds:
+      - pylint {{.PROJECT}}
+
+  lint-mypy:
+    desc: Run mypy static check
+    ignore_error: true
+    cmds:
+      - mypy --strict {{.PROJECT}}
+
+  format:
+    desc: Run formatters
+    cmds:
+      - autopep8 -i {{.PROJECT}}
+      - black {{.PROJECT}}
