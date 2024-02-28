@@ -59,6 +59,8 @@ prefix_dict = OrderedDict(
         "BepInEx": "",
         "plugins": "BepInEx",
         ".*\.dll": "BepInEx/plugins",
+        "config": "BepInEx",
+        "patchers": "BepInEx",
         "yippeesound": "BepInEx/plugins",
     }
 )
