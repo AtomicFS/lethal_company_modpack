@@ -10,7 +10,7 @@ set -Eeuo pipefail
 #
 # If you have installed Steam via Flatpak, then the path is:
 #   ~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Lethal Company/
-GAMEDIR="$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Lethal Company"
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd -P)
 
 # List of mods
 declare -a MODS=(
@@ -45,14 +45,14 @@ declare -a MODS=(
 	"https://thunderstore.io/c/lethal-company/p/x753/Peepers/"
 )
 
+
 #==============================
 # Do not edit below this point
 #==============================
 
-cd "${GAMEDIR}"
+cd "${SCRIPT_DIR}"
 OLDDIR="old"
-mkdir -p .mods/${OLDDIR}
-cd .mods
+mkdir -p ${OLDDIR}
 
 for MOD in "${MODS[@]}"; do
 	NAME=$( echo "${MOD}" | \
@@ -61,11 +61,23 @@ for MOD in "${MODS[@]}"; do
 		sed -E 's/\//-/g'
 	)
 	echo "mod:        ${NAME}"
-	DOWNLOAD_LINK=$( curl --silent "${MOD}" | \
+	MOD_PAGE=$( curl --silent "${MOD}" )
+	DOWNLOAD_LINK=$( echo "${MOD_PAGE}" | \
 		grep "/package/download/" | \
 		sed -E 's/.*https/https/g' | \
 		sed -E 's/[\/]?".*//g'
 	)
+	set +e
+	DEPENDS=$( echo "${MOD_PAGE}" | \
+		sed -zE 's/.*This mod requires the following mods to function//g' | \
+		sed -zE 's/\n<\/div>.*//g' | \
+		grep '/c/lethal-company/p/' | \
+		grep 'h5 class' | \
+		sed -E 's/.*href="/    https:\/\/thunderstore.io/g' | \
+		sed -E 's/">.*//g'
+	)
+	set -e
+	echo -e "  DEPENDS:\n${DEPENDS}"
 	VERSION=$( echo "${DOWNLOAD_LINK}" | sed -E 's/.*\///g' )
 	echo "version:    ${VERSION}"
 
