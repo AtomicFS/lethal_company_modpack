@@ -1,0 +1,22 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:masked"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "TragedyMask:MaskComedyAttach",
+                "ComedyMask:MaskComedyAttach"
+            ],
+            "sounds": [
+                {
+                    "sound": "masked/MaskComedyAttach.ogg"
+                }
+            ]
+        }
+    ]
+}

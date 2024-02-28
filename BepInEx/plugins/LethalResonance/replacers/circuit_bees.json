@@ -1,0 +1,92 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:circuit_bees"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "RedLocustBees:BeesAngry",
+                "AngrySFX:BeesAngry"
+            ],
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeesAngry.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "RedLocustBees:BeesDefensive",
+                "DefendingSFX:BeesDefensive"
+            ],
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeesDefensive.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ZapSFX:BeeZap1",
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeeZap1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ZapSFX:BeeZap2",
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeeZap2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ZapSFX:BeeZap3",
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeeZap3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ZapSFX:BeeZap4",
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeeZap4.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ZapSFX:BeeZap5",
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeeZap5.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ZapSFX:BeeZap6",
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeeZap6.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "RedLocustBees:BeeZapConstant",
+                "ZapSFX:BeeZapConstant"
+            ],
+            "sounds": [
+                {
+                    "sound": "circuit_bees/BeeZapConstant.ogg"
+                }
+            ]
+        }
+    ]
+}

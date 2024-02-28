@@ -1,0 +1,260 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:ambience_inside"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "AmbienceSource:Creak1",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Creak1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:Creak2",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Creak2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:Creak3",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Creak3.ogg"
+                }
+            ]
+        },
+
+        {
+            "matches": "AmbienceSource:Creak4",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Creak4.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:Creak5",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Creak5.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:Creak6",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Creak6.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:Creak8",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Creak8.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:DeepBass",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/DeepBass.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:Droning1",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Droning1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:Droning2",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Droning2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:GhostlySynth",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/GhostlySynth_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/GhostlySynth_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/GhostlySynth_3.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/GhostlySynth_4.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:GhostlySynth2",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/GhostlySynth2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/GhostlySynth2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/GhostlySynth2_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:LoudCreak1",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/LoudCreak1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:LoudCreak2",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/LoudCreak2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:LoudCreak3",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/LoudCreak3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:Random1",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Random1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random1_3.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random1_4.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random1_5.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random1_6.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random1_7.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:Random2",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/Random2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random2_3.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random2_4.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random2_5.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Random2_6.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:StrangeNoise1",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/StrangeNoise1_1.ogg",
+                    "weight": 49
+                },
+                {
+                    "sound": "ambience_inside/StrangeNoise1_2.ogg",
+                    "weight": 51
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:StrangeNoise2",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/StrangeNoise2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:StrangeNoise4",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/StrangeNoise4_1.ogg",
+                    "weight": 49
+                },
+                {
+                    "sound": "ambience_inside/StrangeNoise4_2.ogg",
+                    "weight": 51
+                }
+            ]
+        },
+
+
+        {
+            "matches": "AmbienceSource:VoiceCry",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/VoiceCry_01.ogg"
+                }
+            ]
+        }
+    ]
+}

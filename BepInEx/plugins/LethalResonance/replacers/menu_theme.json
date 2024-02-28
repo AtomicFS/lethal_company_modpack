@@ -1,0 +1,19 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:menu_theme"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "MenuManager:Menu1",
+            "sounds": [
+                {
+                    "sound": "menu_theme/Menu1.ogg"
+                }
+            ]
+        }
+    ]
+}

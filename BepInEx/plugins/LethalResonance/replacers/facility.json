@@ -1,0 +1,158 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:facility"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "*:DoorClose1",
+            "sounds": [
+                {
+                    "sound": "facility/DoorClose1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:DoorClose2",
+            "sounds": [
+                {
+                    "sound": "facility/DoorClose2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SteelDoorMapModel:DoorOpen1",
+                "FancyDoorMapModel:DoorOpen1",
+                "TestRoom:DoorOpen1"
+            ],
+            "sounds": [
+                {
+                    "sound": "facility/DoorOpen1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SteelDoorMapModel:DoorOpen2",
+                "FancyDoorMapModel:DoorOpen2",
+                "TestRoom:DoorOpen2"
+            ],
+            "sounds": [
+                {
+                    "sound": "facility/DoorOpen2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SteelDoorMapModel:DoorSlam1",
+                "FancyDoorMapModel:DoorSlam1",
+                "TestRoom:DoorSlam1"
+            ],
+            "sounds": [
+                {
+                    "sound": "facility/DoorSlam1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SteelDoorMapModel:DoorSlam2",
+                "FancyDoorMapModel:DoorSlam2",
+                "TestRoom:DoorSlam2"
+            ],
+            "sounds": [
+                {
+                    "sound": "facility/DoorSlam2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "DoorLockPickSound:DoorUnlock",
+                "SteelDoorMapModel:DoorUnlock",
+                "TestRoom:DoorUnlock"
+            ],
+            "sounds": [
+                {
+                    "sound": "facility/DoorUnlock.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FancyDoorMapModel:DoorUnlock2",
+            "sounds": [
+                {
+                    "sound": "facility/DoorUnlock2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:FireAlarm",
+            "sounds": [
+                {
+                    "sound": "facility/FireAlarm.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "StartRoom:LargeFanRoom",
+                "IndustrialFan:LargeFanRoom"
+            ],
+            "sounds": [
+                {
+                    "sound": "facility/LargeFanRoom.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                 "HangingLight:LightFlicker",
+                 "*:LightFlicker"
+            ],
+            "sounds": [
+                {
+                    "sound": "facility/LightFlicker.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:MetalClank1",
+            "sounds": [
+                {
+                    "sound": "facility/MetalClank1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SteamValve:PipeValveTwist",
+            "sounds": [
+                {
+                    "sound": "facility/PipeValveTwist.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VentEntrance:VentCrawl1",
+            "sounds": [
+                {
+                    "sound": "facility/VentCrawl1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "facility/VentCrawl1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "facility/VentCrawl1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

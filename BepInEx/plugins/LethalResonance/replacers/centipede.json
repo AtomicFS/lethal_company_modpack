@@ -1,0 +1,38 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:centipede"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "Centipede:CentipedeWalk",
+                "CentipedeModel:CentipedeWalk"
+            ],
+            "sounds": [
+                {
+                    "sound": "centipede/CentipedeWalk.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Centipede:ClingToPlayer",
+            "sounds": [
+                {
+                    "sound": "centipede/ClingToPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Centipede:ClingToPlayerLocal",
+            "sounds": [
+                {
+                    "sound": "centipede/ClingToPlayerLocal.ogg"
+                }
+            ]
+        }
+    ]
+}

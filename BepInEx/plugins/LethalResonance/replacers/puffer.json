@@ -1,0 +1,91 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:puffer"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "PufferEnemy:Angry1",
+                "CreatureVoice:Angry1"
+            ],
+            "sounds": [
+                {
+                    "sound": "puffer/Angry1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "puffer/Angry1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "puffer/Angry1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "PufferEnemy:Frighten1",
+                "CreatureVoice:Frighten1"
+            ],
+            "sounds": [
+                {
+                    "sound": "puffer/Frighten1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "puffer/Frighten1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "puffer/Frighten1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "PufferEnemy:Frighten3",
+                "CreatureVoice:Frighten3"
+            ],
+            "sounds": [
+                {
+                    "sound": "puffer/Frighten3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "puffer/Frighten3_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "puffer/Frighten3_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "PufferEnemy:PuffSFX",
+                "CreatureSFX:PuffSFX"
+            ],
+            "sounds": [
+                {
+                    "sound": "puffer/PuffSFX_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "puffer/PuffSFX_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "puffer/PuffSFX_3.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:scanner_moroxide"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "*:Scan",
+            "sounds": [
+                {
+                    "sound": "scanner_moroxide/Scan_1.ogg",
+                    "weight":1
+                },
+                {
+                    "sound": "scanner_moroxide/Scan_2.ogg",
+                    "weight":1
+                },
+                {
+                    "sound": "scanner_moroxide/Scan_3.ogg",
+                    "weight":1
+                },
+                {
+                    "sound": "scanner_moroxide/Scan_4.ogg",
+                    "weight":1
+                },
+                {
+                    "sound": "scanner_moroxide/Scan_5.ogg",
+                    "weight":1
+                }
+            ]
+        }
+    ]
+}

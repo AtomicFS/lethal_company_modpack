@@ -1,0 +1,139 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:player"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "MovementAudio:BloodGore",
+            "sounds": [
+                {
+                    "sound": "player/BloodGore.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WebHangerPhysics:BodyCollision1",
+            "sounds": [
+                {
+                    "sound": "player/BodyCollision1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WebHangerPhysics:BodyCollision2",
+            "sounds": [
+                {
+                    "sound": "player/BodyCollision2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WebHangerPhysics:BodyCollision3",
+            "sounds": [
+                {
+                    "sound": "player/BodyCollision3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UnderwaterAudio:BreathingUnderwater",
+            "sounds": [
+                {
+                    "sound": "player/BreathingUnderwater.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:CriticalInjury",
+            "sounds": [
+                {
+                    "sound": "player/CriticalInjury.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BodyAudio:DieFromFallDamageSFX1",
+            "sounds": [
+                {
+                    "sound": "player/DieFromFallDamageSFX1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TempAudio1:FallInWater",
+            "sounds": [
+                {
+                    "sound": "player/FallInWater.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:GlobalNotificationSFX",
+            "sounds": [
+                {
+                    "sound": "player/GlobalNotificationSFX.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HighAction1:HighAction1",
+            "sounds": [
+                {
+                    "sound": "player/HighAction1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HighAction2:HighAction2",
+            "sounds": [
+                {
+                    "sound": "player/HighAction2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LowAction:LowAction",
+            "sounds": [
+                {
+                    "sound": "player/LowAction.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "StatusEffectAudio:MoveThroughWater",
+            "sounds": [
+                {
+                    "sound": "player/MoveThroughWater.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TZPChemical:ReleaseHelmetGas",
+            "sounds": [
+                {
+                    "sound": "player/ReleaseHelmetGas.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TZPChemical:ReleaseHelmetGas2",
+            "sounds": [
+                {
+                    "sound": "player/ReleaseHelmetGas2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Player:TalkingUnderwaterBubbles",
+            "sounds": [
+                {
+                    "sound": "player/TalkingUnderwaterBubbles.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:scrap"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "Dentures:ChatteringTeeth",
+            "sounds": [
+                {
+                    "sound": "scrap/ChatteringTeeth.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BigBolt:DropMetalObject1",
+            "sounds": [
+                {
+                    "sound": "scrap/DropMetalObject1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "RubberDucky:DropRubberDuck",
+            "sounds": [
+                {
+                    "sound": "scrap/DropRubberDuck.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "ShotgunItem:DropShotgunShell",
+                "ShotgunShell:DropShotgunShell",
+                "GunBulletRicochet:DropShotgunShell"
+            ],
+            "sounds": [
+                {
+                    "sound": "scrap/DropShotgunShell.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "RubberDucky:DuckQuack",
+                "ItemAudio:DuckQuack"
+            ],
+            "sounds": [
+                {
+                    "sound": "scrap/DuckQuack.ogg"
+                }
+            ]
+        }
+    ]
+}

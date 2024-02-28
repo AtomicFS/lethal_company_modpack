@@ -1,0 +1,32 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:scanner_pixel"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "*:Scan",
+            "sounds": [
+                {
+                    "sound": "scanner_pixel/Scan.ogg",
+                    "weight":1
+                },
+                {
+                    "sound": "scanner_pixel/Scan1.ogg",
+                    "weight":1
+                },
+                {
+                    "sound": "scanner_pixel/Scan2.ogg",
+                    "weight":1
+                },
+                {
+                    "sound": "scanner_pixel/Scan3.ogg",
+                    "weight":1
+                }
+            ]
+        }
+    ]
+}

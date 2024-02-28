@@ -1,0 +1,83 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:menu"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "InitSceneScript:BootUp",
+            "sounds": [
+                {
+                    "sound": "menu/BootUp.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:BootUp2",
+            "sounds": [
+                {
+                    "sound": "menu/BootUp2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PlayerSettingsObject:Button1",
+            "sounds": [
+                {
+                    "sound": "menu/Button1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:Button2",
+            "sounds": [
+                {
+                    "sound": "menu/Button2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:Button3",
+            "sounds": [
+                {
+                    "sound": "menu/Button3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:Button4",
+            "sounds": [
+                {
+                    "sound": "menu/Button4.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SelectAudio:ButtonPress1",
+            "sounds": [
+                {
+                    "sound": "menu/ButtonPress1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Audio:ButtonPress2",
+            "sounds": [
+                {
+                    "sound": "menu/ButtonPress2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SelectAudio:HoverButton1",
+            "sounds": [
+                {
+                    "sound": "menu/HoverButton1.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:day_music"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "TimeOfDayCue:StartOfDay",
+            "sounds": [
+                {
+                    "sound": "day_music/StartOfDay.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:MidDay",
+            "sounds": [
+                {
+                    "sound": "day_music/MidDay.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:LateDay",
+            "sounds": [
+                {
+                    "sound": "day_music/LateDay.ogg"
+                }
+            ]
+        }
+    ]
+}

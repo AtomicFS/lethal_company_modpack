@@ -1,0 +1,32 @@
+{
+    "condition": {
+        "type": "config",
+        "config": "EnabledSounds:apparatus"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "LungApparatus:LungMachine"
+            ],
+            "sounds": [
+                {
+                    "sound": "apparatus/LungMachine.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "LungApparatusTurnedOff:LungMachineDisconnect",
+                "LungApparatus:LungMachineDisconnect"
+            ],
+            "sounds": [
+                {
+                    "sound": "apparatus/LungMachineDisconnect.ogg"
+                }
+            ]
+        }
+    ]
+}

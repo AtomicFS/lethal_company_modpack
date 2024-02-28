@@ -1,0 +1,59 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:outside"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "CreatureSFX:BirdScreech1",
+                "DoublewingedBird:BirdScreech1"
+            ],
+            "sounds": [
+                {
+                    "sound": "outside/BirdScreech1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:DoublewingFlap1",
+            "sounds": [
+                {
+                    "sound": "outside/DoublewingFlap1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:DoublewingFlap2",
+            "sounds": [
+                {
+                    "sound": "outside/DoublewingFlap2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:DoublewingFlap3",
+            "sounds": [
+                {
+                    "sound": "outside/DoublewingFlap3.ogg"
+                }
+            ]
+        },
+
+        {
+            "matches": [
+                "FlappingAudio (1):DoublewingFlapConstant",
+                "DoublewingedBird:DoublewingFlapConstant"
+            ],
+            "sounds": [
+                {
+                    "sound": "outside/DoublewingFlapConstant.ogg"
+                }
+            ]
+        }
+
+    ]
+}

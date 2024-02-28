@@ -1,0 +1,100 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:company"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "Trigger:Belldinger",
+            "sounds": [
+                {
+                    "sound": "company/Belldinger.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FancyDoorMapModel:DoorShut",
+            "sounds": [
+                {
+                    "sound": "company/DoorShut.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:AngerAtDesk",
+            "sounds": [
+                {
+                    "sound": "company/AngerAtDesk.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:AngerAtDesk2",
+            "sounds": [
+                {
+                    "sound": "company/AngerAtDesk2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Music:RewardGood",
+            "sounds": [
+                {
+                    "sound": "company/RewardGood.ogg"
+                }
+            ]
+        },
+        
+        {
+            "matches": "Music:RewardMid",
+            "sounds": [
+                {
+                    "sound": "company/RewardMid.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:SmallHatchDoorOpen",
+            "sounds": [
+                {
+                    "sound": "company/SmallHatchDoorOpen.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:TentaclesAttack",
+            "sounds": [
+                {
+                    "sound": "company/TentaclesAttack.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:TakeItems1",
+            "sounds": [
+                {
+                    "sound": "company/TakeItems1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:TakeItems2",
+            "sounds": [
+                {
+                    "sound": "company/TakeItems2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:TakeItems3",
+            "sounds": [
+                {
+                    "sound": "company/TakeItems3.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:breaker_box"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "BreakerBox:BreakerBoxClose",
+            "sounds": [
+                {
+                    "sound": "breaker_box/BreakerBoxClose.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "BreakerBox:BreakerBoxHum",
+                "BreakerBoxHum:BreakerBoxHum"
+            ],
+            "sounds": [
+                {
+                    "sound": "breaker_box/BreakerBoxHum.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BreakerBox:BreakerBoxOpen",
+            "sounds": [
+                {
+                    "sound": "breaker_box/BreakerBoxOpen.ogg"
+                }
+            ]
+        }
+    ]
+}

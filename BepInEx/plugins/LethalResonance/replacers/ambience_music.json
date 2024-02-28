@@ -1,0 +1,51 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:ambience_music"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "OutsideMusic:AmbientMusic1",
+            "sounds": [
+                {
+                    "sound": "ambience_music/AmbientMusic1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "OutsideMusic:AmbientMusic2",
+            "sounds": [
+                {
+                    "sound": "ambience_music/AmbientMusic2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "OutsideMusic:AmbientMusic3",
+            "sounds": [
+                {
+                    "sound": "ambience_music/AmbientMusic3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:CompanyBuildingMusic1",
+            "sounds": [
+                {
+                    "sound": "ambience_music/CompanyBuildingMusic1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "EclipseMusic:EclipseAmbience",
+            "sounds": [
+                {
+                    "sound": "ambience_music/EclipseAmbience.ogg"
+                }
+            ]
+        }
+    ]
+}
