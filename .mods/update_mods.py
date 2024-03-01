@@ -27,9 +27,9 @@ import requests
 try:
     import requests_cache
 except ImportError:
-    requests_cache_installed = False
+    REQUESTS_CACHE_INSTALLED = False
 else:
-    requests_cache_installed = True
+    REQUESTS_CACHE_INSTALLED = True
 
 # LOG_LEVEL = logging.DEBUG
 LOG_LEVEL = logging.INFO
@@ -76,7 +76,7 @@ def mkdir(path: str) -> None:
 
 
 # requests_cache.install_cache('thunderstore_cache', expire_after=360)
-if requests_cache_installed:
+if REQUESTS_CACHE_INSTALLED:
     requests_cache.install_cache(
         os.path.join(script_dir, "thunderstore_cache"),
         expire_after=360,
