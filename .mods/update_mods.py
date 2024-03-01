@@ -13,6 +13,7 @@ If you have installed Steam via Flatpak, then the path is:
 """
 
 import os
+import stat
 import re
 import zipfile
 from typing import List
@@ -289,6 +290,13 @@ def main() -> None:
         for dep in deps:
             if dep not in mods:
                 mods.append(dep)
+
+    # patch: make winhttp.dll executable
+    winhttp_path = os.path.join(new_mods_dir, "winhttp.dll")
+    if os.path.isfile(winhttp_path):
+        logging.info("patch: make winhttp.dll executable")
+        st = os.stat(winhttp_path)
+        os.chmod(winhttp_path, st.st_mode | stat.S_IEXEC)
 
 
 if __name__ == "__main__":
