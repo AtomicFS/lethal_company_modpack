@@ -221,17 +221,25 @@ class Mod:
                 )
                 continue
 
+            # resolve destination directory
             dest_dir = os.path.join(new_mods_dir, prefix_dst)
+
+            # fix for snowflake HornMan not being able to mkdir
+            if self.name == "HornMoan" and re.match(r".*\.mp3", item):
+                dest_dir = os.path.join(dest_dir, "MetalPipeSFX-HornMoan")
+                mkdir(dest_dir)
+
             logging.info(
                 "[%s] copy '%s'\t-> '%s'",
                 self.name.ljust(25),
                 item,
-                os.path.join(prefix_dst, item),
+                re.sub(new_mods_dir + "/", r"", os.path.join(dest_dir, item)),
             )
 
             if dry_run:
                 continue
             mkdir(dest_dir)
+
             # copy
             if os.path.isfile(item_path):
                 # if file, just copy
