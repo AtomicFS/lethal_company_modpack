@@ -26,7 +26,9 @@ import requests
 try:
     import requests_cache
 except ImportError:
-    pass
+    requests_cache_installed = False
+else:
+    requests_cache_installed = True
 
 # LOG_LEVEL = logging.DEBUG
 LOG_LEVEL = logging.INFO
@@ -73,10 +75,11 @@ def mkdir(path: str) -> None:
 
 
 # requests_cache.install_cache('thunderstore_cache', expire_after=360)
-requests_cache.install_cache(
-    os.path.join(script_dir, "thunderstore_cache"),
-    expire_after=360,
-)
+if requests_cache_installed:
+    requests_cache.install_cache(
+        os.path.join(script_dir, "thunderstore_cache"),
+        expire_after=360,
+    )
 
 
 class Mod:
@@ -85,7 +88,7 @@ class Mod:
     def __init__(self, url: str):
         self.url = url
         self.name = os.path.basename(os.path.dirname(url))
-        self.timeout = 2
+        self.timeout = 5
 
         self.__get_page__()
         self.download_url = ""
