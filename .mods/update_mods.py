@@ -47,6 +47,7 @@ new_mods_dir = os.path.join(script_dir, "new-mod-dir")
 file_blacklist = [
     "CHANGELOG.md",
     "LICENSE",
+    "License.txt",
     "README.md",
     "icon.png",
     "manifest.json",
