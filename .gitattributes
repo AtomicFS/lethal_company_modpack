@@ -8,5 +8,10 @@ BepInEx/plugins/Bundles/networking	filter=lfs diff=lfs merge=lfs -text
 BepInEx/plugins/LethalLib/lethallib	filter=lfs diff=lfs merge=lfs -text
 BepInEx/plugins/MoreEmotes/animationsbundle	filter=lfs diff=lfs merge=lfs -text
 BepInEx/plugins/MoreEmotes/animatorbundle	filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/bonkhitsfx	filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/custompassasset	filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/cutsceneasset	filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/diversity	filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/fartwithreverb	filter=lfs diff=lfs merge=lfs -text
 BepInEx/plugins/fartwithreverb	filter=lfs diff=lfs merge=lfs -text
 BepInEx/plugins/yippeesound	filter=lfs diff=lfs merge=lfs -text

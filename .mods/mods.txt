@@ -1,2 +1,18 @@
 https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/
 https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/
+https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWalkieSlot/
+	https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/
+https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedFlashlightSlot/
+https://thunderstore.io/c/lethal-company/p/HoffmanTV/angry_british_bug/
+	https://thunderstore.io/c/lethal-company/p/no00ob/LCSoundTool/
+	https://thunderstore.io/c/lethal-company/p/Clementinise/CustomSounds/
+https://thunderstore.io/c/lethal-company/p/sunnobunno/LandMineFartReverb/
+https://thunderstore.io/c/lethal-company/p/sunnobunno/BonkHitSFX/
+https://thunderstore.io/c/lethal-company/p/x753/Peepers/
+https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalSuits/
+	https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalContentFramework/
+https://thunderstore.io/c/lethal-company/p/x753/Mimics/
+https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/
+https://thunderstore.io/c/lethal-company/p/IntegrityChaos/Diversity/
+	https://thunderstore.io/c/lethal-company/p/IntegrityChaos/GraphicsAPI/
+	https://thunderstore.io/c/lethal-company/p/IntegrityChaos/LCCutscene/
