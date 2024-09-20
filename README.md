@@ -6,6 +6,12 @@ To use this, just place it into game directory. If you are using git to clone th
 
 Sources to all of the files can be found in a `.mods/mods.txt` text file.
 
+
+## Branches
+- `master` branch contains no active mods (provices vanilla game)
+- `9e` branch contains a selection of active mods
+
+
 ## Location
 
 If you have installed Steam via Flatpak, then the path is:
@@ -14,23 +20,37 @@ If you have installed Steam via Flatpak, then the path is:
 ~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Lethal Company/
 ```
 
+
+## Installation
+
+Go to the direcotry with the game and run:
+- `git init`
+- clone:
+	- with HTTP: `git remote add origin https://github.com/AtomicFS/lethal_company_modpack.git`
+	- with SSH: `git remote add origin git@github.com:AtomicFS/lethal_company_modpack.git`
+- `git fetch -a`
+- `git checkout master`
+
 The resulting directory structure should look something like this:
 
 ```shell
 ~/.var/.../Lethal Company/
-├── .git/
-├── .mods/
-│   ├── update_mods.py
-│   └── ...
-├── BepInEx/
-├── icon.png
-├── Lethal Company_Data/
-├── Lethal Company.exe
-├── MonoBleedingEdge/
-└── ...
+├── .git
+├── .gitattributes
+├── .gitignore
+├── 'Lethal Company_Data'
+├── 'Lethal Company.exe'
+├── .mods
+├── MonoBleedingEdge
+├── nvngx_dlss.dll
+├── NVUnityPlugin.dll
+├── README.md
+├── UnityCrashHandler64.exe
+└── UnityPlayer.dll
 ```
 
 In case the Flatpak installation does not apply the mods right away, follow this [guide](https://docs.bepinex.dev/articles/advanced/proton_wine.html)
+
 
 ## Python script
 
