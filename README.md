@@ -79,3 +79,9 @@ And following optional dependencies:
 
 - python-requests-cache
   - handy for development since it caches HTTP requests
+
+
+## Troubleshooting
+
+### Linux + SWAY
+If you are using more than one screen, you might have a problem with mouse not working. If that is the case remove all unused output from your SWAY configuration (~/.config/sway/config) and reload SWAY (by default: SUPER+SHIFT+C).
